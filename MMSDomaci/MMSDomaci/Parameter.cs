@@ -15,9 +15,7 @@ namespace MMSDomaci
         //Used in Edge enhance and Color equalization filters (ExtraFilters class)
         public Parameter()
         {
-            InitializeComponent();
-
-            tbValue.Text = "10";
+            InitializeComponent(); 
 
             btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
             btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel; 
@@ -30,16 +28,11 @@ namespace MMSDomaci
                 return (Convert.ToInt32(tbValue.Text, 10));
             }
             set { tbValue.Text = value.ToString(); }
-        }
-
-        private void btnOK_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        } 
+        
         private void Parameter_Load(object sender, EventArgs e)
         {
-
+            tbValue.Text = "10";
         }
     }
 }

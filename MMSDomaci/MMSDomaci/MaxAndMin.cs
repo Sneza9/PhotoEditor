@@ -16,12 +16,6 @@ namespace MMSDomaci
         {
             InitializeComponent();
 
-            tbRedMin.Text = "50";
-            tbRedMax.Text = "150";
-            tbGreenMin.Text = "80";
-            tbGreenMax.Text = "255";
-            tbBlueMin.Text = "90";
-            tbBlueMax.Text = "110";
 
             btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
             btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
@@ -80,10 +74,15 @@ namespace MMSDomaci
             }
             set { tbBlueMax.Text = value.ToString(); }
         }
-
-        private void btnOK_Click(object sender, EventArgs e)
+        private void MaxAndMin_Load(object sender, EventArgs e)
         {
 
+            tbRedMin.Text = "50";
+            tbRedMax.Text = "150";
+            tbGreenMin.Text = "80";
+            tbGreenMax.Text = "255";
+            tbBlueMin.Text = "90";
+            tbBlueMax.Text = "110";
         }
     }
 }

@@ -98,8 +98,7 @@ namespace MMSDomaci
             this.btnOK.Size = new System.Drawing.Size(79, 32);
             this.btnOK.TabIndex = 3;
             this.btnOK.Text = "OK";
-            this.btnOK.UseVisualStyleBackColor = true;
-            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
+            this.btnOK.UseVisualStyleBackColor = true; 
             // 
             // btnCancel
             // 
@@ -137,6 +136,7 @@ namespace MMSDomaci
             this.MinimizeBox = false;
             this.Name = "Gamma";
             this.Text = "Gamma";
+            this.Load += new System.EventHandler(this.Gamma_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
