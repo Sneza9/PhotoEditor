@@ -16,6 +16,10 @@ namespace MMSDomaci
         {
             InitializeComponent();
 
+			tbRed.Text = "1";
+			tbGreen.Text = "3";
+			tbBlue.Text = "3";
+
 			btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
 			btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
         }
@@ -45,5 +49,10 @@ namespace MMSDomaci
 			}
 			set { tbBlue.Text = value.ToString(); }
 		}
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

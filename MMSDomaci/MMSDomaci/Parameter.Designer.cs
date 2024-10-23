@@ -96,6 +96,7 @@ namespace MMSDomaci
             this.MinimizeBox = false;
             this.Name = "Parameter";
             this.Text = "Parameter";
+            this.Load += new System.EventHandler(this.Parameter_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

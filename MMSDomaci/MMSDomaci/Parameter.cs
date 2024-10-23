@@ -17,6 +17,8 @@ namespace MMSDomaci
         {
             InitializeComponent();
 
+            tbValue.Text = "10";
+
             btnOK.DialogResult = System.Windows.Forms.DialogResult.OK;
             btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel; 
         }
@@ -31,6 +33,11 @@ namespace MMSDomaci
         }
 
         private void btnOK_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Parameter_Load(object sender, EventArgs e)
         {
 
         }
