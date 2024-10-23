@@ -340,6 +340,7 @@ namespace MMSDomaci
                 return;
             }
 
+            HidePictures();
             HideGrayLabel();
 
             Parameter parameter = new Parameter();
@@ -366,6 +367,7 @@ namespace MMSDomaci
                 return;
             }
 
+            HidePictures();
             HideGrayLabel();
 
             UndoStack.Push((Bitmap)bitmap.Clone());
@@ -386,6 +388,7 @@ namespace MMSDomaci
                 return;
             }
 
+            HidePictures();
             HideGrayLabel();
 
             UndoStack.Push((Bitmap)bitmap.Clone());
@@ -716,6 +719,7 @@ namespace MMSDomaci
                 return;
             }
             HidePictures();
+            HideGrayLabel();
 
 
             /*if (Filters.Gamma(bitmap, g.red, g.green, g.blue))
@@ -820,6 +824,7 @@ namespace MMSDomaci
                 return;
             }
 
+            HidePictures();
             HideGrayLabel();
 
             if (rbRed.Checked)
