@@ -16,7 +16,7 @@ Downsampling i Downsampling Channels
 
 Ostale opcije su open, save, exit, undo, redo, help 
 # Dodatna dokumentacija 
-Dodatna dokumentacija se nalazi u 
+Dodatna dokumentacija se nalazi u fajlu https://github.com/Sneza9/PhotoEditor/blob/main/Dokumentacija.pdf
 
 # Details 
 Predmet: Multimedijalni sistemi 
